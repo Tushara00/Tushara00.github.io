@@ -40,7 +40,7 @@ title: Contact
       <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary btn-sm">
     </div>
   </div>
-  <input type="hidden" name="_next" value="http://127.0.0.1:4000">
+  <input type="hidden" name="_next" value="https://tushara00.github.io">
   <input type="hidden" name="_captcha" value="false">
   
 </form>
