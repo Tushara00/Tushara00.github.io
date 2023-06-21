@@ -49,7 +49,7 @@ title: Contact
 <script type="text/javascript">
 let btn = document.getElementById('submit');
 btn.onclick = function () {
-    window.location.href = "http://127.0.0.1:4000";
+    window.location.href = "https://tushara00.github.io/";
     console.log("submit clicked")
 }
 </script>
