@@ -9,7 +9,7 @@ title: Contact
 
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
-<form class="form-horizontal" action="https://formsubmit.co/trishaahamed300@gmail.com" method="POST">
+<form class="form-horizontal" action="85c646fec23dc17eae174ae2c5df6914" method="POST">
   
   <div class="form-group">
     <label for="name" class="col-sm-2 control-label">Name:</label>
