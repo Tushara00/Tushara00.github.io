@@ -26,7 +26,7 @@ p{
 .right{
     background:#171717;
    width:500px;
-  padding: 2rem 1.5rem; 
+  padding: 1.5rem 2rem; 
    border-radius: 10px;
 }
 h1{
@@ -70,6 +70,9 @@ p{
     line-height: 21px;
     margin-top:1rem;
 }
+.image{
+    text-align: center;
+}
 
 @media only screen and (max-width: 792px) {
     .left,
@@ -77,8 +80,13 @@ p{
       width: 100%;
       margin-bottom:2rem;
       padding:0 2rem;
+     
     }
     h2,h3,h4,p{
         line-height: 25px;
+    }
+    .main-content{
+        margin-top:4rem;
+        margin-bottom:3rem;
     }
   }
