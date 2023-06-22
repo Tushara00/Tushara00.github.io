@@ -33,6 +33,7 @@ h1{
     text-align: center;
     color:white;
     position:relative;
+    margin-top:.5rem;
 }
 h1:before{
     content:"";
@@ -71,6 +72,7 @@ p{
     margin-top:1rem;
 }
 .image{
+    margin-top:.5rem;
     text-align: center;
 }
 
@@ -80,6 +82,7 @@ p{
       width: 100%;
       margin-bottom:2rem;
       padding:0 2rem;
+      margin:0 1rem;
      
     }
     h2,h3,h4,p{
@@ -88,5 +91,8 @@ p{
     .main-content{
         margin-top:4rem;
         margin-bottom:3rem;
+    }
+    .image{
+        margin-top:1rem;
     }
   }

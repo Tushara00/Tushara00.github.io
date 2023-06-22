@@ -85,8 +85,8 @@
   
   <meta name="twitter:card" content="summary">
   
-  <meta name="twitter:site" content="@daattali">
-  <meta name="twitter:creator" content="@daattali">
+  <meta name="twitter:site" content="@daattalifgf">
+  <meta name="twitter:creator" content="@daattalifgf">
 
   <meta property="twitter:title" content="">
   <meta property="twitter:description" content="Why you'd want to go on a date with me">
@@ -113,7 +113,7 @@
 
   <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular">
 
- 
+  <a class="navbar-brand navbar-brand-logo" href="http://localhost:4000/"><img alt="" src=""/>Logo</a>
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -127,19 +127,19 @@
             <a class="nav-link" href="/aboutme">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/experience-education">Experience & Education</a>
+            <a class="nav-link" href="/experience-education">Education & Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/research-project">Research & Project</a>
+            <a class="nav-link" href="/research-project">Research & Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/skill">skills</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/award-achievement">Award & Achievement</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/photography">photoghraphy</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/skill">skill</a>
+            <a class="nav-link" href="/photography">Travel & photoghraphy</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact">contact</a>
@@ -156,67 +156,60 @@
 
 
 
-  <!-- TODO this file has become a mess, refactor it -->
-
-
-
-
-
-
-
-<header class="header-section ">
-
-<div class="intro-header no-img">
-  <div class="container-md">
-    <div class="row">
-      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="page-heading">
-          <h1>About me</h1>
-          
-            
-              <hr class="small">
-              <span class="page-subheading">Why you'd want to go on a date with me</span>
-            
-          
-
-          
-        </div>
-      </div>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black; 
+        }
+        .about{
+           margin:10rem 0;
+           width:800px;
+           background-color: rgba(255, 255, 255, 0.021);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  padding:3rem 5rem;
+  box-shadow:  0px 0px 5px 5px  #252627;;
+        }
+       .container{
+        display:flex;
+        justify-content: center;
+       
+       }
+        h1{
+            color:#b6babf;
+        }
+        h1:before {
+   content:"";
+    position:absolute;
+    width:3rem;
+    height:1px;
+    background-color: white;
+bottom:-7px;
+}
+h1{
+    position:relative;
+   font-size: 48px;
+}
+p{
+    color:#B6BABF;
+    font-weight: 400px;
+}
+    </style>
+</head>
+<body>
+    <div class="container"> 
+    <div class="about">
+<h1>About Me</h1>
+<p>Hey there 👋, Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae eligendi blanditiis modi laborum quos, neque praesentium eum iusto totam. Nulla qui facilis sapiente! Similique, rem sed dolore aut neque nam! blanditiis modi laborum quos, neque praesentium eum iusto totam. Nulla qui facilis sapiente! Similique, rem sed dolore aut neque nam!</p>
     </div>
-  </div>
 </div>
-</header>
-
-
-
-
-
-<div class=" container-md " role="main">
-  <div class="row">
-    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
-      
-
-      <p>My name is Inigo Montoya. I have the following qualities:</p>
-
-<ul>
-  <li>I rock a great mustache</li>
-  <li>I’m extremely loyal to my family</li>
-</ul>
-
-<p>What else do you need?</p>
-
-<h3 id="my-story">My story</h3>
-
-<p>To be honest, I’m having some trouble remembering right now, so why don’t you just watch <a href="https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29">my movie</a> and it will answer <strong>all</strong> your questions.</p>
-
-
-      
-
-      
-
-    </div>
-  </div>
-</div>
+</body>
+</html>
 
 
   <footer>
@@ -224,14 +217,6 @@
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       <ul class="list-inline text-center footer-links"><li class="list-inline-item">
-    <a href="/feed.xml" title="RSS">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">RSS</span>
-    </a>
-  </li><li class="list-inline-item">
     <a href="mailto:someone@example.com" title="Email me">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
@@ -240,7 +225,7 @@
       <span class="sr-only">Email me</span>
    </a>
   </li><li class="list-inline-item">
-    <a href="https://www.facebook.com/halima.moni.334" title="Facebook">
+    <a href="https://www.facebook.com/halimafdf.moni.334" title="Facebook">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
@@ -248,7 +233,7 @@
       <span class="sr-only">Facebook</span>
    </a>
   </li><li class="list-inline-item">
-    <a href="https://github.com/daattali" title="GitHub">
+    <a href="https://github.com/daattalidffd" title="GitHub">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -256,29 +241,13 @@
       <span class="sr-only">GitHub</span>
    </a>
   </li><li class="list-inline-item">
-    <a href="https://twitter.com/daattali" title="Twitter">
+    <a href="https://twitter.com/daattalifgf" title="Twitter">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
       </span>
       <span class="sr-only">Twitter</span>
    </a>
-  </li><li class="list-inline-item">
-    <a href="https://www.youtube.com/c/daattali" title="YouTube">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">YouTube</span>
-   </a>
-  </li><li class="list-inline-item">
-    <a href="https://patreon.com/DeanAttali" title="Patreon">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fab fa-patreon fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">Patreon</span>
-    </a>
   </li></ul>
 
       

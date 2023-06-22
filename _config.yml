@@ -21,11 +21,11 @@ author: Jubair Pantho
 
 navbar-links:
   About Me: "aboutme"
-  Experience & Education: "experience-education"
-  Research & Project: "research-project"
+  Education & Experience: "experience-education"
+  Research & Projects: "research-project"
+  skills: "skill"
   Award & Achievement: "award-achievement"
-  photoghraphy: "photography"
-  skill: "skill"
+  Travel & photoghraphy: "photography"
   contact: "contact"
 
 ################
@@ -52,12 +52,10 @@ navbar-links:
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: halima.moni.334
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  facebook: halimafdf.moni.334
+  github: daattalidffd
+  twitter: daattalifgf
+ 
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
