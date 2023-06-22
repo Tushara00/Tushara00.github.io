@@ -3,11 +3,12 @@
 /* --- General --- */
 
 html {
-  font-size: 100%
+  font-size: 100%;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
 }
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
   font-size: 1.125rem;
   color: #404040;
   position: relative;
@@ -20,7 +21,7 @@ p {
   margin: 1.875rem 0;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
   font-weight: 800;
   line-height: 1.1;
 }
@@ -44,7 +45,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #0085A1;
+  color: #FFFFFF;
 }
 blockquote {
   color: #808080;
@@ -76,12 +77,12 @@ hr.small {
 ::-moz-selection {
   color: #fff;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #FFFFFF;
 }
 ::selection {
   color: #fff;
   text-shadow: none;
-  background-color: #0085A1;
+  background-color: #FFFFFF;
 }
 img::selection {
   color: #fff;
@@ -116,9 +117,9 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background-color: #EAEAEA;
-  border-bottom: 1px solid #DDDDDD;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #000000;
+  border-bottom: 1px solid #b6babf;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
   
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
@@ -138,7 +139,21 @@ img {
   padding-bottom: 0.625rem;
   font-size: 1.125rem;
 }
-
+#main-navbar ul li {
+  position:relative;
+}
+#main-navbar ul li:hover:before{
+  content: "";
+  width:40px;
+  height: 1px;
+  background:#d9d9d9;
+  position:absolute;
+bottom:0;
+left:50%;
+transform:translate(-50%);
+-webkit-transition:width .8s ease;
+transition: width .8s ease;
+} 
 .navbar-custom .navbar-brand-logo {
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
@@ -181,7 +196,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-nav .nav-link {
   font-weight: 800;
-  color: #404040;
+  color: #b6babf;
 }
 
 .navbar-toggler {
@@ -250,10 +265,10 @@ img {
 
 .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
   padding: 0.625rem;
-  background-color: #EAEAEA;
+  background-color: #000000;
   text-decoration: none !important;
   font-weight: normal;
-  color: #404040;
+  color: #b6babf;
   
   white-space: normal;
   
@@ -266,7 +281,7 @@ img {
 
   .navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item {
     padding-left: 0.625rem;
-    border: 1px solid #DDDDDD;
+    border: 1px solid #b6babf;
     border-width: 0 1px 1px;
   }
 
@@ -277,7 +292,7 @@ img {
 
 @media (max-width: 1199px) {
   .navbar-custom .navbar-collapse {
-    border-top: 1px solid #DDDDDD;
+    border-top: 1px solid #b6babf;
     margin: 0 -1rem;
   }
 
@@ -303,7 +318,7 @@ img {
 .navbar-custom .navbar-nav .nav-link:focus,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-custom .navbar-nav .dropdown-menu .dropdown-item:focus {
-  color: #0085A1;
+  color: #FFFFFF;
 }
 
 .navbar-custom .avatar-container {
@@ -372,12 +387,12 @@ footer {
   border-top: 1px #EAEAEA solid;
   margin-top: 3.125rem;
   font-size: 0.875rem;
-  background-color: #EAEAEA;
+  background-color: #000000;
   
 }
 
 footer p.text-muted {
-  color: #777777 !important;
+  color: #b6babf !important;
 }
 
 footer a {
@@ -386,7 +401,7 @@ footer a {
 
 footer a:hover,
 footer a:focus {
-  color: #0085A1;
+  color: #000000;
 }
 
 footer .list-inline {
@@ -395,7 +410,7 @@ footer .list-inline {
   margin-bottom: 1.875rem;
 }
 footer .copyright {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
   text-align: center;
   margin-bottom: 0;
   margin-top: 0;
@@ -407,7 +422,7 @@ footer .theme-by {
 footer .footer-custom-content {
   text-align: center;
   margin-bottom: 0.9375rem;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
 }
 
 @media (min-width: 768px) {
@@ -449,14 +464,14 @@ footer .footer-custom-content {
 
 .post-preview a {
   text-decoration: none;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
   color: #404040;
 }
 
 .post-preview a:focus,
 .post-preview a:hover {
   text-decoration: none;
-  color: #0085A1;
+  color: #FFFFFF;
 }
 
 .post-preview .post-title {
@@ -474,7 +489,7 @@ footer .footer-custom-content {
   font-size: 1.125rem;
   font-style: italic;
   margin: 0 0 0.625rem;
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
 }
 .post-heading .post-meta {
   display: inline-block;
@@ -551,7 +566,7 @@ footer .footer-custom-content {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
   font-size: 0.9375rem;
   margin: 1.875rem 0;
 }
@@ -598,7 +613,7 @@ footer .footer-custom-content {
 }
 
 #full-tags-list {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
 }
 
 #full-tags-list .tag-entry {
@@ -672,7 +687,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   font-size: 1.6875rem;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
   font-weight: 300;
   margin: 0.625rem 0 0;
 }
@@ -697,7 +712,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   padding: 0.3125rem 0.625rem;
   font-size: 0.6875rem;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
   right: 0;
   bottom: 0;
   display: none;
@@ -789,7 +804,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 }
 
 .pagination .page-item .page-link {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'American Typewriter', 'Times New Roman', serif;
   text-transform: uppercase;
   font-size: 0.875rem;
   font-weight: 800;
@@ -807,8 +822,8 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .pagination .page-item .page-link:hover,
 .pagination .page-item .page-link:focus {
   color: #FFF;
-  border: 1px solid #0085A1;
-  background-color: #0085A1;
+  border: 1px solid #FFFFFF;
+  background-color: #FFFFFF;
 }
 
 /* --- Tables --- */

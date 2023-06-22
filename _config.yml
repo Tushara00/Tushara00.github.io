@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My Website
+#title: jubair pantho
 
 # Your name to show in the footer
-author: Some Person
+author: Jubair Pantho
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,12 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
+  Experience & Education: "experience-education"
+  Research & Project: "research-project"
+  Award & Achievement: "award-achievement"
+  photoghraphy: "photography"
+  skill: "skill"
   contact: "contact"
-  email: "email"
-  portfolio: "portfolio"
- 
 
 ################
 # --- Logo --- #
@@ -32,10 +34,10 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+#avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
-round-avatar: true
+#round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -51,7 +53,7 @@ round-avatar: true
 social-network-links:
   email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
+  facebook: halima.moni.334
   github: daattali
   twitter: daattali
   patreon: DeanAttali
@@ -86,30 +88,26 @@ rss-description: This website is a virtual proof that I'm awesome
 ###########################
 
 # Select which social network share links to show in posts
-share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
-  vk: false
+
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+#url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+
 
 # Whether or not to show an excerpt for every blog post in the feed page
-feed_show_excerpt: true
+
 
 # Whether or not to show a list of tags below each post preview in the feed page
-feed_show_tags: true
+
 
 # Add a search button to the navbar
-post_search: true
+
 
 # Add a button in the footer to edit the current page. Only works if your website is hosted on GitHub
-edit_page_button: true
+
 
 # Allow sub-menu items (second-level navigation menu items) to be longer than the top-level menu
 # If this setting is off, then long sub-menu words might get cut off
@@ -125,17 +123,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
+navbar-col: "#000000"
+navbar-text-col: "#b6babf"
+navbar-border-col: "#b6babf"
 page-col: "#FFFFFF"
 text-col: "#404040"
 link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+hover-col: "#FFFFFF"
+footer-col: "#000000"
+footer-text-col: "#b6babf"
 footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-hover-col: "#000000"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -259,18 +257,9 @@ kramdown:
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+    
   -
-    scope:
-      path: "" # any file that's not a post will be a "page" layout by default
-    values:
-      layout: "page"
+
 
 # Exclude these files from production site
 exclude:

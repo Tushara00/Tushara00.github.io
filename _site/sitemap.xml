@@ -18,6 +18,9 @@
 <loc>http://localhost:4000/email/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/experience-education/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
@@ -25,5 +28,13 @@
 </url>
 <url>
 <loc>http://localhost:4000/tags/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/font/American%20Typewriter%20Bold/readme.html</loc>
+<lastmod>2020-07-15T18:40:00-04:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/assets/font/American%20Typewriter%20Regular/readme.html</loc>
+<lastmod>2020-07-15T18:40:14-04:00</lastmod>
 </url>
 </urlset>

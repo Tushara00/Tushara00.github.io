@@ -13,7 +13,7 @@
   <title>Contact</title>
 
   
-  <meta name="author" content="Some Person">
+  <meta name="author" content="Jubair Pantho">
   
 
   <meta name="description" content="&gt; Only one thing has value: originality. You have to work your way through tradition like a good swimmer swims through a stream: the academics drown in it.
@@ -50,7 +50,7 @@
 
   
 
-  <link rel="alternate" type="application/rss+xml" title="My Website" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
 
   
 
@@ -99,8 +99,6 @@
 
   
 
-  
-  <meta property="og:site_name" content="My Website">
   <meta property="og:title" content="Contact">
   <meta property="og:description" content="&gt; Only one thing has value: originality. You have to work your way through tradition like a good swimmer swims through a stream: the academics drown in it.
 &gt;  Gustave Courbet 
@@ -132,8 +130,6 @@
   
     Message:">
 
-  
-  <meta property="og:image" content="http://localhost:4000/assets/img/avatar-icon.png">
   
 
   
@@ -180,8 +176,6 @@
     Message:">
 
   
-  <meta name="twitter:image" content="http://localhost:4000/assets/img/avatar-icon.png">
-  
 
   
 
@@ -201,125 +195,42 @@
   
 
 
-  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="http://localhost:4000/">My Website</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="main-navbar">
-    <ul class="navbar-nav ml-auto">
+  <div class="collapse navbar-collapse justify-content-center" id="main-navbar">
+    <span></span>
+    <ul class="navbar-nav 
+    ">
           <li class="nav-item">
             <a class="nav-link" href="/aboutme">About Me</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="/experience-education">Experience & Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/research-project">Research & Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/award-achievement">Award & Achievement</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/photography">photoghraphy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/skill">skill</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="/contact">contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/email">email</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/portfolio">portfolio</a>
-          </li>
-        <li class="nav-item">
-          <a class="nav-link" id="nav-search-link" href="#" title="Search">
-            <span id="nav-search-icon" class="fa fa-search"></span>
-            <span id="nav-search-text">Search</span>
-          </a>
-        </li></ul>
+          </li></ul>
   </div>
 
   
 
   
-    <div class="avatar-container">
-      <div class="avatar-img-border">
-        <a href="http://localhost:4000/">
-          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/avatar-icon.png" />
-        </a>
-      </div>
-    </div>
-  
 
 </nav>
-
-
-
-<div id="beautifuljekyll-search-overlay">
-
-  <div id="nav-search-exit" title="Exit search">✕</div>
-  <input type="text" id="nav-search-input" placeholder="Search">
-  <ul id="search-results-container"></ul>
-  
-  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
-  <script>
-    var searchjson = '[ \
-       \
-        { \
-          "title"    : "Sample blog post", \
-          "category" : "test", \
-          "url"      : "/2020-02-28-test-markdown/", \
-          "date"     : "February 28, 2020" \
-        }, \
-       \
-        { \
-          "title"    : "Flake it till you make it", \
-          "category" : "bookstest", \
-          "url"      : "/2020-02-26-flake-it-till-you-make-it/", \
-          "date"     : "February 26, 2020" \
-        }, \
-       \
-       \
-        { \
-          "title"    : "About me", \
-          "category" : "page", \
-          "url"      : "/aboutme/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Contact", \
-          "category" : "page", \
-          "url"      : "/contact/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "email", \
-          "category" : "page", \
-          "url"      : "/email/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "My website", \
-          "category" : "page", \
-          "url"      : "/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "portfolio", \
-          "category" : "page", \
-          "url"      : "/portfolio/", \
-          "date"     : "January 1, 1970" \
-        }, \
-       \
-        { \
-          "title"    : "Tag Index", \
-          "category" : "page", \
-          "url"      : "/tags/", \
-          "date"     : "January 1, 1970" \
-        } \
-       \
-    ]';
-    searchjson = JSON.parse(searchjson);
-
-    var sjs = SimpleJekyllSearch({
-      searchInput: document.getElementById('nav-search-input'),
-      resultsContainer: document.getElementById('search-results-container'),
-      json: searchjson
-    });
-  </script>
-</div>
 
 
 
@@ -369,7 +280,7 @@
 
 <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen" />
 
-<form class="form-horizontal" action="https://formsubmit.co/trishaahamed300@gmail.com" method="POST">
+<form class="form-horizontal" action="85c646fec23dc17eae174ae2c5df6914" method="POST">
   
   <div class="form-group">
     <label for="name" class="col-sm-2 control-label">Name:</label>
@@ -400,7 +311,7 @@
       <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary btn-sm" />
     </div>
   </div>
-  <input type="hidden" name="_next" value="http://127.0.0.1:4000" />
+  <input type="hidden" name="_next" value="https://tushara00.github.io" />
   <input type="hidden" name="_captcha" value="false" />
   
 </form>
@@ -408,7 +319,7 @@
 <script type="text/javascript">
 let btn = document.getElementById('submit');
 btn.onclick = function () {
-    window.location.href = "http://127.0.0.1:4000";
+    window.location.href = "https://tushara00.github.io/";
     console.log("submit clicked")
 }
 </script>
@@ -445,7 +356,7 @@ btn.onclick = function () {
       <span class="sr-only">Email me</span>
    </a>
   </li><li class="list-inline-item">
-    <a href="https://www.facebook.com/deanattali" title="Facebook">
+    <a href="https://www.facebook.com/halima.moni.334" title="Facebook">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
@@ -489,16 +400,11 @@ btn.onclick = function () {
       
       <p class="copyright text-muted">
       
-        Some Person
+        Jubair Pantho
         &nbsp;&bull;&nbsp;
       
       2023
 
-      
-        &nbsp;&bull;&nbsp;
-        <span class="author-site">
-          <a href="http://localhost:4000/">MyWebsite.com</a>
-        </span>
       
 
       
@@ -507,8 +413,7 @@ btn.onclick = function () {
 
       </p>
       <p class="theme-by text-muted">
-        Powered by
-        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+       
       </p>
       </div>
     </div>
