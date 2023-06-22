@@ -1,6 +1,6 @@
 body{
     background-color: black; 
-    overflow-x: hidden;
+
 }
 
 .main-content{
@@ -18,7 +18,7 @@ p{
 flex-wrap: wrap;
 max-width:1120px;
 margin:auto;
-overflow-y: hidden;
+
 }
 
 .left ,
@@ -27,7 +27,7 @@ overflow-y: hidden;
     width:48%;
     border-radius: 10px;
     padding:1.2rem 2.5rem;
-    margin:10rem 0 3rem;
+    margin:10rem 0 ;
 }
 h1{
     text-align: center;
