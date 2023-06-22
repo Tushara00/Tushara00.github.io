@@ -17,6 +17,7 @@ p{
 flex-wrap: wrap;
 max-width:1120px;
 margin:auto;
+overflow-y: hidden;
 }
 
 .left ,
@@ -75,5 +76,8 @@ p{
       width: 100%;
       padding: 4rem;
       margin:4rem;
+    }
+    h2,h3,h4,p{
+        line-height: 25px;
     }
   }
