@@ -24,10 +24,10 @@ gap:1rem;
 .left ,
 .right{
     background:#171717;
-    width:49%;
+   
     border-radius: 10px;
     padding:1.2rem 2.5rem;
-    margin:10rem 0 ;
+   
 }
 h1{
     text-align: center;
